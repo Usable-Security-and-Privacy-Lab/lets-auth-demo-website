@@ -1,23 +1,22 @@
-import logo from './logo.svg';
+import keyhole from './key-hole-medium.png';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="header">
+        <div className="title">Let's Authenticate</div>
+        <img className="logo" alt="Let's Authenticate logo, a key hole" src={keyhole} />
+      </div>
+      <div className="dialog">
+        
+        <h1>
+          Welcome! You have logged in successfully!
+        </h1>
+
+        <p>Thank you for trying the Let's Authenticate system.</p>
+
+      </div>
     </div>
   );
 }

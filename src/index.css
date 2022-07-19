@@ -5,9 +5,30 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  background-color: #219EBC;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  height: 150px;
+  padding-top: 10px;
+}
+
+.title {
+  font-family: "Raleway", serif;
+  font-size: 50px;
+  color: white;
+}
+
+.logo {
+  width: 60px;
 }
