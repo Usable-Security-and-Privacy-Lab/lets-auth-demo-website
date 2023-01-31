@@ -26,6 +26,7 @@ function LoginForm({onSubmit}) {
 
     return (
         <div>
+            <h1>Login</h1>
             <label>Username</label>
             <input 
                 type="text"
