@@ -49,7 +49,7 @@ function Register() {
     return (
         <div className="formCenter">
             <h1 className="title">Register</h1>
-            <form onSubmit={handleSubmit} className="formFields">
+            <form className="formFields">
                 <div className="formFiled">
                     <label className="formFieldLabel">Full Name</label>
                     <input 
